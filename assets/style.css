@@ -1,0 +1,131 @@
+@media print {
+  .page-break {
+    page-break-after: always;
+  }
+  
+  .hidden-on-print {
+    display: none;
+  }
+  
+  .skills-overview ul > li {
+    display: inline-block;
+  }
+  
+  .skills-overview ul li {
+    margin-right: 15px;
+  }
+  
+  .skills-overview ul li:before {
+    content: "* ";
+  }
+  
+  .main-view {
+    padding-top: 50px;
+  }
+  
+  .resume-view .right-pane {
+    text-align: left;
+  }
+
+  .resume-view .job-info {
+    font-size: 12pt;
+  }
+  
+  .resume-view h3 {
+    padding: 0;
+    margin: 0;
+    border-bottom: solid 2px #000;
+  }
+  
+  .resume-view p.dates, .resume-view p.location {
+    font-size: 12pt;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.main-view {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.skills-overview {
+  font-size: 14pt;
+}
+
+.main-navigation {
+  font-size: 20pt;
+}
+
+.main-navigation .about-me {
+  text-align: center;
+}
+
+.main-navigation .my-name {
+  font-size: 2em;
+}
+
+.main-navigation .my-title {
+  font-style: italic;
+  font-size: 20pt;
+}
+
+.main-navigation .my-email {
+  font-size: 16pt;
+}
+
+ul.navigation-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navigation-links li {
+  padding: 5px;
+}
+
+ul.navigation-links li.active {
+  background: #B5E9FF;
+}
+
+ul.navigation-links li.active a {
+  color: #002696;
+  font-weight: bold;
+}
+
+ul.navigation-links li.active:before {
+}
+
+.portfolio-view {
+  font-size: 1.5em;
+}
+
+.resume-view {
+  font-size: 1.5em;
+}
+
+.resume-view h2 {
+  font-weight: bold;
+}
+
+.resume-view .dates {
+}
+
+.resume-view .location {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.resume-view .job-info {
+  margin-bottom: 50px;
+}
+
+.resume-view .right-pane {
+  text-align: right;
+}
+
+.resume-view em {
+  font-weight: bold;
+  /*color: #002696;*/
+}
