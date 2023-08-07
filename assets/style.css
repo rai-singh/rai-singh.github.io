@@ -43,6 +43,14 @@
     padding: 0;
     margin: 0;
   }
+
+  .shown-on-print {
+    display: block !important;
+  }
+}
+
+.shown-on-print {
+  display: none;
 }
 
 .main-view {
@@ -73,6 +81,16 @@
 
 .main-navigation .my-email {
   font-size: 16pt;
+}
+
+.main-navigation .my-links {
+  font-size: 16pt;
+}
+
+.main-navigation .my-email,
+.main-navigation .my-links {
+  padding: 0;
+  margin: 0;
 }
 
 ul.navigation-links {
