@@ -93,6 +93,11 @@
   margin: 0;
 }
 
+.main-navigation img {
+  width: 90%;
+  margin: 0 auto;
+}
+
 ul.navigation-links {
   list-style-type: none;
   margin: 0;
